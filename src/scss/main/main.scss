@@ -1,0 +1,27 @@
+.main {
+    padding: 220px 0;
+    color: #fff;
+    background-image: url('../../images/main-bg.jpg');
+    background-size: cover;
+
+    &__title {
+        font-size: 48px;
+        max-width: 830px;
+        margin: 0 auto;
+        font-weight: 700;
+    }
+
+    &__btn {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .main {
+        padding: 100px 0;
+        &__title {
+            font-size: 28px;
+        }
+    }
+}

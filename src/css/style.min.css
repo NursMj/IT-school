@@ -1,0 +1,6 @@
+
+.btns{padding:10px 25px;border-radius:15px}
+
+.main{padding:220px 0;color:#fff;background-image:url("../../images/main-bg.jpg");background-size:cover}.main__title{font-size:48px;max-width:830px;margin:0 auto;font-weight:700}.main__btn{margin-top:50px}@media(max-width: 576px){.main{padding:100px 0}.main__title{font-size:28px}}
+.title{font-style:normal;font-weight:700;font-size:36px;line-height:53px;text-align:center;color:#323232}.title_light{color:#fff}
+section{padding:100px 0}
