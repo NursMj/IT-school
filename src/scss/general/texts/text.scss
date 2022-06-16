@@ -1,0 +1,11 @@
+.text {
+    padding-top: 50px;
+    color: #999999;
+}
+
+@media (max-width: 576px) {
+    .text {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}

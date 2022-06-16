@@ -1,0 +1,15 @@
+.advantages {
+    background: #F6F6F8;
+
+    &__title {
+        text-align: left !important;
+    }
+
+    &__image {
+        border-radius: 15px;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+}

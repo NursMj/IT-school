@@ -1,6 +1,7 @@
-
-.btns{padding:10px 25px;border-radius:15px}
-
+.about__wrapper{max-width:740px;margin:0 auto}.about-cards{margin-top:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.about-cards__item{max-width:350px}.about-cards__img{margin-bottom:15px;width:150px;height:150px;border-radius:50%;background-color:#4985ff}.about-cards__text{padding-top:20px !important}
 .main{padding:220px 0;color:#fff;background-image:url("../../images/main-bg.jpg");background-size:cover}.main__title{font-size:48px;max-width:830px;margin:0 auto;font-weight:700}.main__btn{margin-top:50px}@media(max-width: 576px){.main{padding:100px 0}.main__title{font-size:28px}}
-section{padding:100px 0}
-.title{font-style:normal;font-weight:700;font-size:36px;line-height:53px;text-align:center;color:#323232}.title_light{color:#fff}
+.advantages{background:#f6f6f8}.advantages__title{text-align:left !important}.advantages__image{border-radius:15px;overflow:hidden}.advantages__image img{width:100%}
+.btns{padding:10px 25px;border-radius:15px}
+section{padding:100px 0}@media(max-width: 576px){section{padding:50px 0}}
+.title{font-style:normal;font-weight:700;font-size:36px;text-align:center;color:#323232}.title_light{color:#fff}@media(max-width: 576px){.title{font-size:25px}}
+.text{padding-top:50px;color:#999}@media(max-width: 576px){.text{padding-top:30px;font-size:15px}}

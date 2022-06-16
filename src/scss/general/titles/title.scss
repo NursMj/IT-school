@@ -2,11 +2,16 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 53px;
     text-align: center;
     color: #323232;
     
     &_light {
         color: #fff;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 25px;
     }
 }
