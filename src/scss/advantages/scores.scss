@@ -1,0 +1,15 @@
+.scores {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+    &__count {
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    &__text {
+        padding-top: 10px !important;
+    }
+}

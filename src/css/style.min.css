@@ -1,7 +1,9 @@
 .about__wrapper{max-width:740px;margin:0 auto}.about-cards{margin-top:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.about-cards__item{max-width:350px}.about-cards__img{margin-bottom:15px;width:150px;height:150px;border-radius:50%;background-color:#4985ff}.about-cards__text{padding-top:20px !important}
+.courses{background:#504dc2}.courses-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:70px}.courses-cards{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.courses-cards__item{max-width:250px}
 .main{padding:220px 0;color:#fff;background-image:url("../../images/main-bg.jpg");background-size:cover}.main__title{font-size:48px;max-width:830px;margin:0 auto;font-weight:700}.main__btn{margin-top:50px}@media(max-width: 576px){.main{padding:100px 0}.main__title{font-size:28px}}
-.advantages{background:#f6f6f8}.advantages__title{text-align:left !important}.advantages__image{border-radius:15px;overflow:hidden}.advantages__image img{width:100%}
+.advantages{padding-bottom:70px;background:#f6f6f8}.advantages__content{padding-bottom:80px}.advantages__title{text-align:left !important}.advantages__image{border-radius:15px;overflow:hidden}.advantages__image img{width:100%}
+.scores{padding-top:30px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}.scores__count{margin-left:15px;font-weight:400;font-size:26px}.scores__text{padding-top:10px !important}
 .btns{padding:10px 25px;border-radius:15px}
 section{padding:100px 0}@media(max-width: 576px){section{padding:50px 0}}
-.title{font-style:normal;font-weight:700;font-size:36px;text-align:center;color:#323232}.title_light{color:#fff}@media(max-width: 576px){.title{font-size:25px}}
 .text{padding-top:50px;color:#999}@media(max-width: 576px){.text{padding-top:30px;font-size:15px}}
+.title{font-style:normal;font-weight:700;font-size:36px;text-align:center;color:#323232}.title_light{color:#fff}@media(max-width: 576px){.title{font-size:25px}}
