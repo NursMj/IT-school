@@ -1,0 +1,35 @@
+.review {
+    &__item {
+        padding: 50px 20%;
+        text-align: center;
+    }
+
+    &__image {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 30px;
+        img {
+            width: 100%;
+            margin-top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+    &__name {
+        display: block;
+    }
+    &__social {
+        margin: 0 auto;
+        width: 30px;
+        font-size: 30px;
+        &:hover {
+            color: red;
+        }
+    }
+}
