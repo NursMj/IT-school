@@ -10,20 +10,51 @@
         justify-content: space-between;
 
         &__item {
-            // margin: 15px;
-            max-width: 350px;
+            width: 30%;
         }
 
         &__img {
+            margin: 0 auto;
             margin-bottom: 15px;
             width: 150px;
             height: 150px;
             border-radius: 50%;
             background-color: #4985FF;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+            }
         }
 
         &__text {
             padding-top: 20px !important;
         }
+    }
+}
+
+@media (max-width: 767px) {
+    .about {
+        &-cards {
+            &__item {
+                margin: 0 auto;
+                margin-bottom: 30px;
+                width: 60%;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            } 
+        }   
+    }
+}
+
+@media (max-width: 575px) {
+    .about {
+        &-cards {
+            &__item {
+                width: 90%;
+            } 
+        }   
     }
 }

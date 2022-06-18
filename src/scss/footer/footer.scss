@@ -1,4 +1,36 @@
 .footer {
-    padding: 100px 0;
-    background: #444;
+    padding: 70px 0;
+
+    &__title {
+        text-align: left !important;
+    }
+
+    &__menu {
+        display: flex !important;
+        flex-direction: column !important;
+
+        a {
+            padding-left: 8px;
+
+            @media (max-width: 991px) {
+                padding-left: 0;
+            }   
+        }
+    }
+
+    
+}
+
+.social {
+    color: #fff;
+    font-size: 40px;
+
+    a {
+        margin-right: 10px;
+        color: inherit;
+
+        &:hover {
+            color: rgb(99, 166, 192);
+        } 
+    }
 }

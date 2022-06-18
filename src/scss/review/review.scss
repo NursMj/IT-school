@@ -2,6 +2,10 @@
     &__item {
         padding: 50px 20%;
         text-align: center;
+
+        @media (max-width: 575px) {
+            padding: 30px 15%;
+        }   
     }
 
     &__image {

@@ -4,15 +4,32 @@
     &-header {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
+        
+        @media (max-width: 575px) {
+            margin: 0 auto 70px;
+            width: 250px;
+            flex-direction: column;
+        }   
     }
 
     &-cards {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         &__item {
-            max-width: 250px;
+            width: 23%;
+
+            @media (max-width: 991px) {
+                margin-top: 30px;
+                width: 47%;
+            }    
+
+            @media (max-width: 575px) {
+                margin: 0 auto 30px;
+                width: 70%;
+            }   
         }
     }
 }

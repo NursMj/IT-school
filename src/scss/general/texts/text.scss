@@ -1,11 +1,15 @@
 .text {
     padding-top: 50px;
     color: #999999;
+
+    @media (max-width: 991px) {
+        padding-top: 20px;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .text {
-        padding-top: 30px;
+        padding-top: 20px;
         font-size: 15px;
     }
 }

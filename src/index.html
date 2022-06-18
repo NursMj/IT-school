@@ -61,17 +61,23 @@
             </div>
             <div class="about-cards">
                 <div class="about-cards__item text-center">
-                    <img class="about-cards__img" src="images/main-bg.jpg" alt="">
+                    <div class="about-cards__img">
+                        <img src="images/advantages/advantages.jpg" alt="">
+                    </div>
                     <h5>Создание сайтов</h5>
                     <p class="about-cards__text text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, facilis!</p>
                 </div>
                 <div class="about-cards__item text-center">
-                    <img class="about-cards__img" src="images/main-bg.jpg" alt="">
+                    <div class="about-cards__img">
+                        <img src="images/advantages/advantages.jpg" alt="">
+                    </div>
                     <h5>Мобильные приложения</h5>
                     <p class="about-cards__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, pariatur!</p>
                 </div>
                 <div class="about-cards__item text-center">
-                    <img class="about-cards__img" src="images/main-bg.jpg" alt="">
+                    <div class="about-cards__img">
+                        <img src="images/advantages/advantages.jpg" alt="">
+                    </div>
                     <h5>Desctop приложения</h5>
                     <p class="about-cards__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, pariatur!</p>
                 </div>
@@ -82,12 +88,12 @@
     <section class="advantages">
         <div class="container">
             <div class="row advantages__content">
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-6">
                     <h2 class="title advantages__title">Высокие стандарты обучения</h2>
                     <p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-                    <a href="#">Подробнее о компании</a>
+                    <a class="advantages__link" href="#">Подробнее о компании</a>
                 </div>
-                <div class="col-md-6 offset-md-1">
+                <div class="col-lg-6 offset-lg-1 col-md-6">
                     <div class="advantages__image">
                         <img src="images/advantages/advantages.jpg" alt="">
                     </div>
@@ -95,6 +101,10 @@
             </div>
             <hr>
             <div class="scores">
+                <div class="scores__item">
+                    <img src="images/advantages/scores.png" alt="" class="scores__icon"><span class="scores__count">125</span>
+                    <p class="text scores__text">Our projects</p>
+                </div>
                 <div class="scores__item">
                     <img src="images/advantages/scores.png" alt="" class="scores__icon"><span class="scores__count">125</span>
                     <p class="text scores__text">Our projects</p>
@@ -123,7 +133,7 @@
         <div class="container">
             <div class="courses-header">
                 <h2 class="title title_light courses__title">Наши курсы</h2>
-                <buttomn class="btn btns btn-primary">Посмотреть все курсы</buttomn>
+                <buttomn class="btn btns btn-primary courses__btn">Посмотреть все курсы</buttomn>
             </div>
             <div class="courses-cards">
                 <div class="courses-cards__item card">
@@ -249,7 +259,7 @@
                     <div class="contacts__wrapper">
                         <a href="" class="text"><i class="fa-solid fa-envelope"></i>  test@test.com</a>
                         <a href="" class="text"><i class="fa-solid fa-phone"></i>  +996 555 66 99</a>
-                        <a href="" class="text"><i class="fa-solid fa-phone"></i>  +996 555 66 99</a>
+                        <a href="" class="text"><i class="fa-brands fa-whatsapp"></i>  +996 555 66 99</a>
                         <a href="" class="text"><i class="fa-solid fa-location-dot"></i>  КГТУ им. И. Раззакова
                             66 просп. Манаса, Бишкек</a>
                     </div>
@@ -261,18 +271,23 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer bg-dark">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-5">
+                    <h3 class="title title_light footer__title">Соцсети</h3>
                     <div class="social">
-
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-5">
                     <div class="navbar navbar-expand-lg navbar-dark">
-                        <a class="navbar-brand" href="#">IT School</a>
-                        <ul class="navbar-nav">
+                        
+                        <ul class="navbar-nav footer__menu">
+                            <a class="navbar-brand" href="#">IT School</a>
                             <li class="nav-item active">
                             <a class="nav-link" href="#">О нас</a>
                             </li>
@@ -289,6 +304,8 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <p></p>
         </div>
     </footer>
 

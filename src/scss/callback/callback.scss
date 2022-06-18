@@ -8,6 +8,12 @@
         flex-direction: column;
         width: 400px;
         
+        @media (max-width: 575px) {
+            padding: 20px 10px;
+            width: 80%;
+        }   
+
+
         input {
             margin-bottom: 20px;
             padding: 10px;

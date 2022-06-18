@@ -1,7 +1,22 @@
 .scores {
     padding-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 767px) {
+        justify-content: space-around;
+    }    
+
+    &__item {
+        @media (max-width: 767px) {
+            width: 30%;
+        }
+
+        @media (max-width: 575px) {
+            width: 40%;
+        }
+    }
 
     &__count {
         margin-left: 15px;

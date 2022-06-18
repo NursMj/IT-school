@@ -4,10 +4,21 @@
 
     &__content {
         padding-bottom: 80px;
+
+        @media (max-width: 991px) {
+            padding-bottom: 40px;
+        }
     }
 
     &__title {
         text-align: left !important;
+    }
+
+    &__link {
+        @media (max-width: 767px) {
+            display: inline-block;
+            margin-bottom: 40px;
+        }
     }
 
     &__image {
@@ -17,4 +28,5 @@
             width: 100%;
         }
     }
+
 }
