@@ -2,14 +2,18 @@ new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
   },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
 });
+
+const burger = document.querySelector('.navbar-toggler')
+
+burger.addEventListener('click', () => {
+  document.querySelector('#navbarNav').classList.toggle('collapse')
+})
