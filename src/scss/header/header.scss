@@ -1,4 +1,8 @@
 .login {
     margin-left: 50px;
     padding: 5px 15px;
+
+    @media (max-width: 991px) {
+        margin-left: 0;
+    }
 }
