@@ -7,9 +7,9 @@
 .footer{padding:70px 0}.footer__title{text-align:left !important}.footer__menu{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important;-webkit-box-orient:vertical !important;-webkit-box-direction:normal !important;-ms-flex-direction:column !important;flex-direction:column !important}.footer__menu a{padding-left:8px;cursor:pointer}@media(max-width: 991px){.footer__menu a{padding-left:0}}.social{color:#fff;font-size:40px}.social a{margin-right:10px;color:inherit}.social a:hover{color:#63a6c0}
 .login{margin-left:50px;padding:5px 15px}@media(max-width: 991px){.login{margin-left:0}}
 .main{padding:220px 0;color:#fff;background-image:url("../../images/main-bg.jpg");background-size:cover}.main__title{font-size:48px;max-width:830px;margin:0 auto;font-weight:700}.main__btn{margin-top:50px}@media(max-width: 767px){.main{padding:100px 0}.main__title{font-size:28px}}
-video{width:100%}
+video{width:70%}@media(max-width: 575px){video{width:100%}}
 .review__item{padding:50px 20%;text-align:center}@media(max-width: 575px){.review__item{padding:30px 15%}}.review__image{margin:0 auto;width:200px;height:200px;overflow:hidden;border-radius:30px}.review__image img{width:100%;margin-top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.review__info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.review__name{display:block}.review__social{margin:0 auto;width:30px;font-size:30px}.review__social:hover{color:red}
 .btns{padding:10px 25px;border-radius:15px}
-.text{padding-top:50px;color:#999}@media(max-width: 991px){.text{padding-top:20px}}@media(max-width: 767px){.text{padding-top:20px;font-size:15px}}
 section{padding:100px 0}@media(max-width: 767px){section{padding:70px 0}}@media(max-width: 576px){section{padding:50px 0}}
+.text{padding-top:50px;color:#999}@media(max-width: 991px){.text{padding-top:20px}}@media(max-width: 767px){.text{padding-top:20px;font-size:15px}}
 .title{font-style:normal;font-weight:700;font-size:36px;text-align:center;color:#323232}.title_light{color:#fff}@media(max-width: 576px){.title{font-size:25px}}
