@@ -329,9 +329,10 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="" class="callback-form">
-                    <input type="email" placeholder="email">
-                    <input type="password" placeholder="Пароль">
+                <form action="" id="modal-form" class="callback-form">
+                    <p class="error-message">Email или пароль введены не верно</p>
+                    <input class="modal-email" type="email" placeholder="email">
+                    <input class="modal-psw" type="password" placeholder="Пароль">
                     <input type="submit" placeholder="Отправить" class="btn btn-primary btns">
                 </form>
             </div>
