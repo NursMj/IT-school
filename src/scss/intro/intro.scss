@@ -1,6 +1,13 @@
 .intro {
     background: #F6F6F8;
     padding: 40px 0;
+    
+    span {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-size: 20px !important;
+    }
 
     &__video {
         margin: 0 auto;
